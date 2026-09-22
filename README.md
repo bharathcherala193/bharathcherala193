@@ -1,6 +1,18 @@
-# Hi, I am Bharathkumar 👋
+<!-- Animated Waving Header Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0c10,50:38bdf8,100:fbbf24&height=200&section=header&text=Cherala%20Bharathkumar&fontSize=42&fontColor=ffffff&fontAlignY=35&animation=twinkling" width="100%" />
+</p>
 
-###  About Me
+<!-- Dynamic Typing Text Animation -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi%2C+I+am+Bharathkumar+%F0%9F%91%8B;AI%2FML+Engineer+Student;Building+Multi-Stage+RAG+Pipelines;Designing+LangGraph+Agentic+Systems;Made+to+work%2C+not+just+to+demo" alt="Typing SVG Animation" />
+  </a>
+</p>
+
+<br>
+
+### ⚡ About Me
 
 I am an **AI/ML Engineer Student** specializing in B.Tech CSE (AI & ML). I build AI systems end-to-end—from data preprocessing and model fine-tuning to multi-agent architectures, Dockerized FastAPI microservices, and Streamlit demo UIs.
 
@@ -10,13 +22,13 @@ Most of my builds run entirely on local models or free-tier infrastructure—zer
 
 ---
 
-###  Featured Builds
+### 📦 Featured Builds
 
 <table width="100%">
 <tr>
 <td>
 
-###  01. [Production-RAG-Application](https://github.com/bharathcherala193/Production-RAG-Application)
+### 📜 01. [Production-RAG-Application](https://github.com/bharathcherala193/Production-RAG-Application)
 > **Offline Contract RAG System with Source Attribution & CI Quality Gates**
 
 Built a hybrid search RAG pipeline over 510 real legal contracts (CUAD dataset) combining BM25 keyword search + ChromaDB vector search with cross-encoder reranking (top 20 → top 5). Diagnosed vague uncited answers and model hallucinations, raising Ragas faithfulness from **0.77–0.82 to 1.00** and answer relevancy to **0.71**. Automated quality evaluation in GitHub Actions CI to break builds if scores drop—running at zero API cost with local Llama 3.1 8B via Ollama.
@@ -31,7 +43,7 @@ Built a hybrid search RAG pipeline over 510 real legal contracts (CUAD dataset) 
 <tr>
 <td>
 
-###  02. [Autonomous-Research-Report-Agent](https://github.com/bharathcherala193/Autonomous-Research-Report-Agent)
+### 🤖 02. [Autonomous-Research-Report-Agent](https://github.com/bharathcherala193/Autonomous-Research-Report-Agent)
 > **Multi-Agent LangGraph Pipeline with Claim-Checking Critic & Audit Logging**
 
 Designed a 4-agent workflow (`Planner` → `Researcher` → `Writer` → `Critic`) in LangGraph where the Critic cross-checks every generated claim against raw Tavily web sources and sends drafts back for revision until unsupported claims are removed. Fixed research budget starvation and reasoning drift, adding human approval gates and full audit logging running on Groq free-tier LLMs.
@@ -46,7 +58,7 @@ Designed a 4-agent workflow (`Planner` → `Researcher` → `Writer` → `Critic
 <tr>
 <td>
 
-###  03. [VisionInspect-AI](https://github.com/bharathcherala193/VisionInspect-AI)
+### 👁️ 03. [VisionInspect-AI](https://github.com/bharathcherala193/VisionInspect-AI)
 > **Deep Learning Defect Detection Platform with Class-Imbalance Correction**
 
 Built and deployed a ResNet50 visual inspection pipeline across 3 MVTec AD industrial categories, achieving **87–98%** test accuracy. Diagnosed a severe class-imbalance failure (model defaulting to majority normal class) and corrected it using weighted sampling and gradient clipping—boosting minority-class recall from **36% to 91%**. Shipped as a reproducible, Dockerized FastAPI microservice.
@@ -61,7 +73,7 @@ Built and deployed a ResNet50 visual inspection pipeline across 3 MVTec AD indus
 <tr>
 <td>
 
-###  04. [Faithfulness-Guard-Loop](https://github.com/bharathcherala193/Faithfulness-Guard-Loop)
+### 🛡️ 04. [Faithfulness-Guard-Loop](https://github.com/bharathcherala193/Faithfulness-Guard-Loop)
 > **Real-Time Automated Evaluation Loop Preventing LLM Hallucinations**
 
 Developed a real-time evaluation guard loop using Ragas metrics to measure generation faithfulness on the fly, automatically re-routing low-confidence or uncited responses back to retrieval or outputting grounded fallbacks.
@@ -76,7 +88,7 @@ Developed a real-time evaluation guard loop using Ragas metrics to measure gener
 <tr>
 <td>
 
-###  05. [Pharmaceutical-Inventory-Analysis](https://github.com/bharathcherala193/Pharmaceutical-Inventory-Analysis)
+### 📊 05. [Pharmaceutical-Inventory-Analysis](https://github.com/bharathcherala193/Pharmaceutical-Inventory-Analysis)
 > **Data Processing Pipeline & Interactive Procurement Dashboard**
 
 Analyzed large-scale pharmaceutical inventory datasets using Python & SQL to uncover procurement patterns and inventory optimization rules, building interactive Streamlit dashboards that reduced manual reporting overhead by **~80%**.
@@ -89,7 +101,7 @@ Analyzed large-scale pharmaceutical inventory datasets using Python & SQL to unc
 
 ---
 
-###  Tech Stack
+### 🛠️ Tech Stack
 
 <h4 align="center">Languages & Frameworks</h4>
 <p align="center">
@@ -122,7 +134,7 @@ Analyzed large-scale pharmaceutical inventory datasets using Python & SQL to unc
 
 ---
 
-###  Contact & Resume
+### 📫 Contact & Resume
 
 <p align="center">
   <a href="https://www.linkedin.com/in/bharath193/" target="_blank">
