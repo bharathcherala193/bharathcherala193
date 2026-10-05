@@ -1,7 +1,3 @@
-<!-- Animated Waving Header Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0c10,50:38bdf8,100:fbbf24&height=200&section=header&text=Cherala%20Bharathkumar&fontSize=42&fontColor=ffffff&fontAlignY=35&animation=twinkling" width="100%" />
-</p>
 
 <!-- Dynamic Typing Text Animation -->
 <p align="center">
