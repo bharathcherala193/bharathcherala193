@@ -7,13 +7,12 @@
 
 <br>
 
-###  About Me
+### About Me
 
 I am an **AI/ML Engineer Student** specializing in B.Tech CSE (AI & ML). I build AI systems end-to-end—from data preprocessing and model fine-tuning to multi-agent architectures, Dockerized FastAPI microservices, and Streamlit demo UIs.
 
 Instead of writing basic single-prompt wrappers, I design multi-stage RAG pipelines that route, retrieve, evaluate, and self-correct. When something fails in production, I find the root cause and confirm the fix with concrete metrics.
 
-Most of my builds run entirely on local models or free-tier infrastructure—zero paid API costs, no rate limits, just Ollama, Groq, and PyTorch doing the heavy lifting on my machine.
 
 <br>
 
@@ -75,7 +74,7 @@ Most of my builds run entirely on local models or free-tier infrastructure—zer
 
 ---
 
-###  Featured Builds
+### Featured Builds
 
 <table width="100%">
 <tr>
