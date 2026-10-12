@@ -7,12 +7,13 @@
 
 <br>
 
-### About Me
+###  About Me
 
 I am an **AI/ML Engineer Student** specializing in B.Tech CSE (AI & ML). I build AI systems end-to-end—from data preprocessing and model fine-tuning to multi-agent architectures, Dockerized FastAPI microservices, and Streamlit demo UIs.
 
 Instead of writing basic single-prompt wrappers, I design multi-stage RAG pipelines that route, retrieve, evaluate, and self-correct. When something fails in production, I find the root cause and confirm the fix with concrete metrics.
 
+Most of my builds run entirely on local models or free-tier infrastructure—zero paid API costs, no rate limits, just Ollama, Groq, and PyTorch doing the heavy lifting on my machine.
 
 <br>
 
@@ -26,8 +27,8 @@ Instead of writing basic single-prompt wrappers, I design multi-stage RAG pipeli
     <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" height="22" alt="X" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://bharathcherala193.github.io/portfolio/resume.html" target="_blank">
-    <img src="https://img.shields.io/badge/Resume-2563EB?style=flat-square&logo=googledocs&logoColor=white" height="22" alt="Resume" />
+  <a href="https://bharathcherala193.github.io/portfolio/resume.pdf" download="Bharathkumar_Resume.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/Resume_PDF-2563EB?style=flat-square&logo=googledocs&logoColor=white" height="22" alt="Resume PDF" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/bharath193/" target="_blank">
@@ -74,61 +75,48 @@ Instead of writing basic single-prompt wrappers, I design multi-stage RAG pipeli
 
 ---
 
-### Featured Builds
+###  Featured Builds
 
 <table width="100%">
 <tr>
-<td>
+<td width="50%" valign="top">
 
 ###  01. [Production-RAG-Application](https://github.com/bharathcherala193/Production-RAG-Application)
-> **Offline Contract RAG System with Source Attribution & CI Quality Gates**
+> **Offline Contract RAG with Source Attribution & CI Quality Gates**
 
-Built a hybrid search RAG pipeline over 510 real legal contracts (CUAD dataset) combining BM25 keyword search + ChromaDB vector search with cross-encoder reranking (top 20 → top 5). Diagnosed vague uncited answers and model hallucinations, raising Ragas faithfulness from **0.77–0.82 to 1.00** and answer relevancy to **0.71**. Automated quality evaluation in GitHub Actions CI to break builds if scores drop—running at zero API cost with local Llama 3.1 8B via Ollama.
+Built a hybrid search RAG pipeline over 510 real legal contracts (CUAD dataset) combining BM25 keyword search + ChromaDB vector search with cross-encoder reranking (top 20 → top 5). Diagnosed vague uncited answers, raising Ragas faithfulness from **0.77–0.82 to 1.00** and relevancy to **0.71**. Automated quality gating in GitHub Actions CI at zero API cost via local Llama 3.1 8B on Ollama.
 
-**Tech Stack:** `Python` `LangChain` `ChromaDB` `Ollama (Llama 3.1 8B)` `Ragas` `GitHub Actions` `Streamlit`
+**Tech Stack:** `Python` `LangChain` `ChromaDB` `Ollama` `Ragas` `GitHub Actions` `Streamlit`
 
 </td>
-</tr>
-</table>
-
-<table width="100%">
-<tr>
-<td>
+<td width="50%" valign="top">
 
 ###  02. [Autonomous-Research-Report-Agent](https://github.com/bharathcherala193/Autonomous-Research-Report-Agent)
-> **Multi-Agent LangGraph Pipeline with Claim-Checking Critic & Audit Logging**
+> **Multi-Agent LangGraph Pipeline with Claim Critic & Audit Logging**
 
-Designed a 4-agent workflow (`Planner` → `Researcher` → `Writer` → `Critic`) in LangGraph where the Critic cross-checks every generated claim against raw Tavily web sources and sends drafts back for revision until unsupported claims are removed. Fixed research budget starvation and reasoning drift, adding human approval gates and full audit logging running on Groq free-tier LLMs.
+Designed a 4-agent workflow (`Planner` → `Researcher` → `Writer` → `Critic`) in LangGraph where the Critic cross-checks every generated claim against raw Tavily web sources and loops revisions until verified. Solved budget starvation and reasoning drift by isolating tasks, adding human approval gates and full audit logging running on Groq free-tier LLMs.
 
-**Tech Stack:** `LangGraph` `LangChain` `Groq (Llama/GPT-OSS)` `Tavily` `Streamlit` `Human-in-the-Loop`
+**Tech Stack:** `LangGraph` `LangChain` `Groq (Llama/GPT-OSS)` `Tavily` `Streamlit` `HITL`
 
 </td>
 </tr>
-</table>
-
-<table width="100%">
 <tr>
-<td>
+<td width="50%" valign="top">
 
 ###  03. [VisionInspect-AI](https://github.com/bharathcherala193/VisionInspect-AI)
-> **Deep Learning Defect Detection Platform with Class-Imbalance Correction**
+> **Defect Detection Platform with Class-Imbalance Correction**
 
-Built and deployed a ResNet50 visual inspection pipeline across 3 MVTec AD industrial categories, achieving **87–98%** test accuracy. Diagnosed a severe class-imbalance failure (model defaulting to majority normal class) and corrected it using weighted sampling and gradient clipping—boosting minority-class recall from **36% to 91%**. Shipped as a reproducible, Dockerized FastAPI microservice.
+Built and deployed a ResNet50 visual inspection pipeline across 3 MVTec AD industrial categories, achieving **87–98%** test accuracy. Diagnosed a class-imbalance failure and corrected it using weighted sampling and gradient clipping—boosting minority-class recall from **36% to 91%**. Shipped as a reproducible, Dockerized FastAPI microservice.
 
 **Tech Stack:** `PyTorch` `ResNet50` `FastAPI` `Docker` `Scikit-learn` `MVTec AD`
 
 </td>
-</tr>
-</table>
-
-<table width="100%">
-<tr>
-<td>
+<td width="50%" valign="top">
 
 ###  04. [Faithfulness-Guard-Loop](https://github.com/bharathcherala193/Faithfulness-Guard-Loop)
-> **Real-Time Automated Evaluation Loop Preventing LLM Hallucinations**
+> **Real-Time Automated Evaluation Loop Preventing Hallucinations**
 
-Developed a real-time evaluation guard loop using Ragas metrics to measure generation faithfulness on the fly, automatically re-routing low-confidence or uncited responses back to retrieval or outputting grounded fallbacks.
+Developed a real-time evaluation guard loop using Ragas metrics to measure generation faithfulness dynamically on the fly. The pipeline automatically intercepts low-confidence or ungrounded outputs and re-routes them back to the retrieval phase or serves verified fallback responses.
 
 **Tech Stack:** `Python` `Ragas` `LangChain` `LLM Evaluation` `Prompt Engineering`
 
