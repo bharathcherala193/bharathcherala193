@@ -1,4 +1,3 @@
-
 <!-- Dynamic Typing Text Animation -->
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -8,7 +7,7 @@
 
 <br>
 
-### ⚡ About Me
+###  About Me
 
 I am an **AI/ML Engineer Student** specializing in B.Tech CSE (AI & ML). I build AI systems end-to-end—from data preprocessing and model fine-tuning to multi-agent architectures, Dockerized FastAPI microservices, and Streamlit demo UIs.
 
@@ -16,15 +15,73 @@ Instead of writing basic single-prompt wrappers, I design multi-stage RAG pipeli
 
 Most of my builds run entirely on local models or free-tier infrastructure—zero paid API costs, no rate limits, just Ollama, Groq, and PyTorch doing the heavy lifting on my machine.
 
+<br>
+
+<!-- Connect & Links Row -->
+<p align="center">
+  <a href="https://github.com/bharathcherala193" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" height="22" alt="GitHub" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://x.com/No1405Core" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" height="22" alt="X" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://bharathcherala193.github.io/portfolio/resume.html" target="_blank">
+    <img src="https://img.shields.io/badge/Resume-2563EB?style=flat-square&logo=googledocs&logoColor=white" height="22" alt="Resume" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/bharath193/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="22" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:bharathcherala193@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" height="22" alt="Gmail" />
+  </a>
+</p>
+
 ---
 
-### 📦 Featured Builds
+###  Tech Stack
+
+<p align="center">
+  <strong>Languages & Frameworks</strong><br>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/LangGraph-15161e?style=flat-square&logo=diagramsdotnet&logoColor=38bdf8" height="20" />
+</p>
+
+<p align="center">
+  <strong>AI/ML & Data</strong><br>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" height="20" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" height="20" />
+</p>
+
+<p align="center">
+  <strong>DevOps & Tools</strong><br>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/Groq-F05032?style=flat-square&logo=fastly&logoColor=white" height="20" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" height="20" />
+</p>
+
+---
+
+###  Featured Builds
 
 <table width="100%">
 <tr>
 <td>
 
-### 📜 01. [Production-RAG-Application](https://github.com/bharathcherala193/Production-RAG-Application)
+###  01. [Production-RAG-Application](https://github.com/bharathcherala193/Production-RAG-Application)
 > **Offline Contract RAG System with Source Attribution & CI Quality Gates**
 
 Built a hybrid search RAG pipeline over 510 real legal contracts (CUAD dataset) combining BM25 keyword search + ChromaDB vector search with cross-encoder reranking (top 20 → top 5). Diagnosed vague uncited answers and model hallucinations, raising Ragas faithfulness from **0.77–0.82 to 1.00** and answer relevancy to **0.71**. Automated quality evaluation in GitHub Actions CI to break builds if scores drop—running at zero API cost with local Llama 3.1 8B via Ollama.
@@ -39,7 +96,7 @@ Built a hybrid search RAG pipeline over 510 real legal contracts (CUAD dataset) 
 <tr>
 <td>
 
-### 🤖 02. [Autonomous-Research-Report-Agent](https://github.com/bharathcherala193/Autonomous-Research-Report-Agent)
+###  02. [Autonomous-Research-Report-Agent](https://github.com/bharathcherala193/Autonomous-Research-Report-Agent)
 > **Multi-Agent LangGraph Pipeline with Claim-Checking Critic & Audit Logging**
 
 Designed a 4-agent workflow (`Planner` → `Researcher` → `Writer` → `Critic`) in LangGraph where the Critic cross-checks every generated claim against raw Tavily web sources and sends drafts back for revision until unsupported claims are removed. Fixed research budget starvation and reasoning drift, adding human approval gates and full audit logging running on Groq free-tier LLMs.
@@ -54,7 +111,7 @@ Designed a 4-agent workflow (`Planner` → `Researcher` → `Writer` → `Critic
 <tr>
 <td>
 
-### 👁️ 03. [VisionInspect-AI](https://github.com/bharathcherala193/VisionInspect-AI)
+###  03. [VisionInspect-AI](https://github.com/bharathcherala193/VisionInspect-AI)
 > **Deep Learning Defect Detection Platform with Class-Imbalance Correction**
 
 Built and deployed a ResNet50 visual inspection pipeline across 3 MVTec AD industrial categories, achieving **87–98%** test accuracy. Diagnosed a severe class-imbalance failure (model defaulting to majority normal class) and corrected it using weighted sampling and gradient clipping—boosting minority-class recall from **36% to 91%**. Shipped as a reproducible, Dockerized FastAPI microservice.
@@ -69,7 +126,7 @@ Built and deployed a ResNet50 visual inspection pipeline across 3 MVTec AD indus
 <tr>
 <td>
 
-### 🛡️ 04. [Faithfulness-Guard-Loop](https://github.com/bharathcherala193/Faithfulness-Guard-Loop)
+###  04. [Faithfulness-Guard-Loop](https://github.com/bharathcherala193/Faithfulness-Guard-Loop)
 > **Real-Time Automated Evaluation Loop Preventing LLM Hallucinations**
 
 Developed a real-time evaluation guard loop using Ragas metrics to measure generation faithfulness on the fly, automatically re-routing low-confidence or uncited responses back to retrieval or outputting grounded fallbacks.
@@ -79,75 +136,3 @@ Developed a real-time evaluation guard loop using Ragas metrics to measure gener
 </td>
 </tr>
 </table>
-
-<table width="100%">
-<tr>
-<td>
-
-### 📊 05. [Pharmaceutical-Inventory-Analysis](https://github.com/bharathcherala193/Pharmaceutical-Inventory-Analysis)
-> **Data Processing Pipeline & Interactive Procurement Dashboard**
-
-Analyzed large-scale pharmaceutical inventory datasets using Python & SQL to uncover procurement patterns and inventory optimization rules, building interactive Streamlit dashboards that reduced manual reporting overhead by **~80%**.
-
-**Tech Stack:** `Python` `SQL` `Pandas` `Seaborn` `Streamlit`
-
-</td>
-</tr>
-</table>
-
----
-
-### 🛠️ Tech Stack
-
-<h4 align="center">Languages & Frameworks</h4>
-<p align="center">
-  <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/LANGCHAIN-121212?style=for-the-badge&logo=chainlink&logoColor=white" />
-  <img src="https://img.shields.io/badge/LANGGRAPH-15161e?style=for-the-badge&logo=diagramsdotnet&logoColor=38bdf8" />
-</p>
-
-<h4 align="center">AI/ML & Data</h4>
-<p align="center">
-  <img src="https://img.shields.io/badge/PYTORCH-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TENSORFLOW-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/HUGGINGFACE-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/NUMPY-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/SCIKIT_LEARN-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-</p>
-
-<h4 align="center">DevOps & Tools</h4>
-<p align="center">
-  <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GITHUB_ACTIONS-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-  <img src="https://img.shields.io/badge/GROQ-F05032?style=for-the-badge&logo=fastly&logoColor=white" />
-  <img src="https://img.shields.io/badge/JUPYTER-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-</p>
-
----
-
-### 📫 Contact & Resume
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/bharath193/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:bharathcherala193@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/bharathcherala193" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://bharathcherala193.github.io/portfolio/resume.html" target="_blank">
-    <img src="https://img.shields.io/badge/📄_DOWNLOAD_RESUME-2563EB?style=for-the-badge&logoColor=white" />
-  </a>
-</p>
